@@ -30,27 +30,27 @@ public class test2 : MonoBehaviour {
 		if(request != null)
 		Debug.Log( request.bytesDownloaded);
 	}
-	public void OtherSource(){
+	public void OtherSource(){// attach to a button
 		debug.text = "";
 		StartCoroutine (DownloadAudio());
 	}
-	public void GoogleTranslate(){
+	public void GoogleTranslate(){// attach to a button
 		debug.text = "";
 		StartCoroutine (DownloadAudio2());
 	}
-	public void PersistainFolder(){
+	public void PersistainFolder(){// attach to a button
 		debug.text = "";
 		StartCoroutine (DownloadAudio3());
 	}
-	public void StreamingAssetsFolder(){
+	public void StreamingAssetsFolder(){// attach to a button
 		debug.text = "";
 		StartCoroutine (DownloadAudio4());
 	}
-	public void VoiceRSS(){
+	public void VoiceRSS(){// attach to a button
 		debug.text = "";
 		StartCoroutine (DownloadAudio5(input.text));
 	}
-	public void stopPlay(){
+	public void stopPlay(){// attach to a button
 		stat.text = "";
 		debug.text = "";
 		lenght.text = "";
